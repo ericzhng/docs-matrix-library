@@ -5,7 +5,7 @@ description: Tutorial for BLAS, LAPACK, SCALAPACK, including both dense and spar
 lang: en-US
 encoding: UTF-8
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "docs-matrix-library" # the subpath of your site, e.g. /blog/
 url: https://ericzhng.github.io/ # the base hostname & protocol for your site
 git_address: https://github.com/ericzhng/matrix-library
 #git_edit_address: https://github.com/UniversalSplitScreen/UniversalSplitScreen.github.io/blob/gh-pages
