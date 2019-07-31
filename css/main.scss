@@ -51,6 +51,7 @@ body {
     margin: -$navbar-padding-vertical 0;
     height: $navbar-height+8px;
     padding: 6px 5px 14px 5px;
+	//padding: 10px 0;
 	margin-right: 3px;
 	text-align: middle;
   }
@@ -70,7 +71,7 @@ body {
   // background-attachment: fixed;
   background-size: cover;
   background-position: center 36%;
-  margin-top: -28px;
+  //margin-top: -28px;
 }
 .page-content {
   padding-bottom: 20px;
