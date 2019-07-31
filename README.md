@@ -1,2 +1,7 @@
-# docs-matrix-library
-Website hosting tutorials and examples for matrix library
+## Readme
+
+### my site hosting matrix library package, including its tutorial and examples.
+
+
+### note
+Remember to update data/docs.yml when adding a new doc
