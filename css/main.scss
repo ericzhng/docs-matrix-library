@@ -31,7 +31,7 @@ body {
 
 .header-container {
   background-color: white;
-//  background: url('../img/so-simple-sample-image-1.jpg') no-repeat 50% 0;
+  background: url('../img/backup-1.jpg') no-repeat 50% 0;
   color: #fff;
   h1 {
     color: white;
@@ -64,6 +64,13 @@ body {
   background-color: #003E78;
   color: #FFF;
   font-size: 10pt;
+}
+.footer-text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 *[id]:before {
@@ -117,8 +124,8 @@ body {
   img {
     margin: -$navbar-padding-vertical 0;
     height: $navbar-height;
-    padding: 5px 5px 5px 5px;
-	margin-right: 3px;
+    padding: 12px 0px 12px 0px;
+	margin-right: 0px;
 	text-align: middle;
   }
   a {
@@ -156,4 +163,26 @@ body {
   background-color: #003E78;
   // color: #FFCB0B;
 }
-
+.img-footer {
+  display: block;
+  max-width: 100%;
+  background-image: url("../img/backup-2.jpg");
+  //background-repeat: repeat-x;
+  height: 150pt;
+}
+.img-responsive {
+  display: block;
+  max-width: 80%;
+  height: auto;
+  margin-left: 20pt;
+}
+.inner-content {
+	h1 {
+		margin-bottom: 12pt;
+	}
+	p {
+		margin-left: 12pt;
+		margin-top: 4pt;
+		margin-bottom: 0pt;
+	}
+}
