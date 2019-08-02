@@ -26,54 +26,33 @@ html {
 }
 body {
   padding-top: $navbar-height + $navbar-margin-bottom;
-  margin-bottom: 60px;
+  margin-bottom: 46px;
 }
-.navbar-fixed-top{
-  background-color: #003E78;
-  color: #FFCB0B;
-}
-.navbar-container {
-  font-size: 18px;
-  color: #FFCB0B;
-  background-color: #003E78;
-}
-.navbar-left {
-	color: #FFCB0B;
-	background-color: #FFF;
-	//padding: 2px 2px 2px 2px;
-}
-.navbar-header {
-	color: #FFCB0B;
-	background-color: #003E78;
-}
-.navbar-brand {
-  img {
-    margin: -$navbar-padding-vertical 0;
-    height: $navbar-height+8px;
-    padding: 6px 5px 14px 5px;
-	//padding: 10px 0;
-	margin-right: 3px;
-	text-align: middle;
-  }
-  a {
-  background-color: #003E78;
-  color: #FFCB0B;
-  }
-}
+
 .header-container {
-  background-color: black;
-  background: url('../img/so-simple-sample-image-1.jpg') no-repeat 50% 0;
-  color: #FFF;
-  
+  background-color: white;
+//  background: url('../img/so-simple-sample-image-1.jpg') no-repeat 50% 0;
+  color: #fff;
   h1 {
-    color: #FFCB0B;
+    color: white;
+	text-shadow: 3px 3px 6px #000000;
+	font-weight: 500;
+  }
+  h2 {
+    color: white;
+    text-shadow: 3px 3px 6px #000000;
+	font-weight: 200;
+	font-size: 20pt;
+	margin-bottom: 15pt;
   }
   // background-attachment: fixed;
   background-size: cover;
   background-position: center 36%;
-  margin-top: -28px;
+  margin-top: -37px;
 }
 .page-content {
+  padding-bottom: 20px;
+  font-size: 14pt;
   padding-bottom: 20px;
 }
 .footer {
@@ -84,16 +63,9 @@ body {
   padding-top: 10px;
   background-color: #003E78;
   color: #FFF;
+  font-size: 10pt;
 }
 
-.post-title {
-	h1{
-	font-size: 18pt;
-	}
-}
-.post-content {
-	font-size: 14pt;
-}
 *[id]:before {
   display: block;
   content: " ";
@@ -101,78 +73,87 @@ body {
   height: 75px;
   visibility: hidden;
 }
+
 .navbar-form .has-feedback .form-control-feedback {
   top: 10px
 }
+
 .post-list-container {
+  li a {
+	color: #1DA7ED;
+	//font-size: 12pt;
+  }
   li a.active {
     font-weight: bold;
 	color: lighten(#1DA7ED, 0%);
-	font-size: 12pt;
+	//font-size: 12pt;
   }
   margin-left: 8pt;
 }
-.col-md-8 {
-//  h1{
-//	  font-size: 30pt;
-//  }
-//  p{
-//	  font-size: 12pt;
-//  }
-}
-.col-md-4 {
-  h4{
-	  font-size: 20pt;
-  }
-//  p{
-//	  font-size: 12pt;
-//  }
+.list-group-item {
+	font-size: 10.5pt;
+	padding: 8px;
+	padding-left: 18pt;
 }
 .panel-title{
 	a{
 		font-size: 12pt;
 		font-weight: bold;
 	}
-}
-.list-group-item {
-	font-size: 11pt;
-	padding: 8px;
-	padding-left: 12pt;
-}
-.inner-content {
-	font-size: 12pt;
-	h1{
-		margin-bottom: 22pt;
-    }
-	p{
-		margin: 0pt 0pt 2pt 0pt;
+	h1 {
+		font-size: 18pt;
 	}
 }
 .well{
-	font-size: 12pt;
+//	font-size: 12pt;
+  h4 {
+      font-weight: bold;
+  }
 }
-.navbar-collapse:after {
-	font-size: 25pt;
+.navbar-default {
+  background-color: #00274C;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-brand {
+  img {
+    margin: -$navbar-padding-vertical 0;
+    height: $navbar-height;
+    padding: 5px 5px 5px 5px;
+	margin-right: 3px;
+	text-align: middle;
+  }
+  a {
+    background-color: #00274C;
     color: #FFCB0B;
-    background-color: #0D57AA;
-}
-.navbar-nav li a{
-  color: #FFCB0B;
+  }
 }
 .navbar-default .navbar-nav > li > a {
 	color: #FFCB0B;
+	display: inline-block;
+	vertical-align : middle;
+	font-weight : bold;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #FFCB0B;
+    background-color: #0D57AA;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: lighten(#FFCB0B, 50%);
-	//background-color: transparent;
+	color: lighten(#FFCB0B, 0%);
+	background-color: #0D57AA;
 }
-.btn-lg {
+.btn-primary {
 	color:#FFCB0B;
-	background-color: #305682;
+	background-color: #003E78;
+	margin: 12pt 0pt;
 }
 .btn-primary:hover, .btn-primary:active:hover {
 	color:#FFF;
 	background-color: #0D57AA;
 }
+.navbar-container {
+  font-size: 18px;
+}
+.navbar-fixed-top {
+  background-color: #003E78;
+  // color: #FFCB0B;
+}
+

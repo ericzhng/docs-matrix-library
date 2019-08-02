@@ -1,5 +1,8 @@
 $(function () {
 
+  // $('.collapse').collapse('hide');
+  $('.list-group-item.active').parent().parent('.collapse').collapse('show');
+
   function initSearchBox() {
     var pages = new Bloodhound({
       datumTokenizer: Bloodhound.tokenizers.obj.whitespace('title'),

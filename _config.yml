@@ -4,6 +4,7 @@ email: buaa.zhanghui@gmail.com
 description: Tutorial for BLAS, LAPACK, SCALAPACK, including both dense and sparse versions.
 lang: en-US
 encoding: UTF-8
+name: Hui Zhang
 
 baseurl: "/docs-matrix-library" # the subpath of your site, e.g. /blog/
 url: https://ericzhng.github.io # the base hostname & protocol for your site
