@@ -1,0 +1,30 @@
+<h2 id="prison-architect-setup">Prison Architect setup</h2>
+<ol>
+  <li>Press Window+R. Paste in <code class="language-plaintext highlighter-rouge">C:\Users\USERNAME\AppData\Local\Introversion\Prison Architect</code>, replacing USERNAME with your Windows username. Open preferences.txt
+    <ul>
+      <li>Alternatively, Paste <code class="language-plaintext highlighter-rouge">%appdata%</code> in Windows+R, go up a directory, then into <code class="language-plaintext highlighter-rouge">Local\Introversion\Prison Architect</code></li>
+    </ul>
+  </li>
+  <li>Set ScreenWindowed to <code class="language-plaintext highlighter-rouge">true</code></li>
+  <li>Set ScreenW and ScreenH to the width/height you want. e.g. for a 1920x1080 monitor, use ScreenW 960 and ScreenH 1020 for vertical split screen or ScreenW 1920 and ScreenH 500 for horizontal split screen. Adapt this for your monitor size.</li>
+  <li>Open the game’s directory by right-clicking Prison Architect in Steam -&gt; Properties -&gt; Local files -&gt; Browse game files…</li>
+  <li>Rename <code class="language-plaintext highlighter-rouge">steam_api.dll</code> to <code class="language-plaintext highlighter-rouge">steam_api.dll.valve</code> and <code class="language-plaintext highlighter-rouge">steam_api64.dll</code> to <code class="language-plaintext highlighter-rouge">steam_api64.dll.valve</code></li>
+  <li>Download the latest release of the Goldberg Emulator <a href="https://gitlab.com/Mr_Goldberg/goldberg_emulator/releases">here</a>, The Goldberg Emulator is required to run two instances of the game.</li>
+  <li>Extract it anywhere by right-clicking -&gt; Extract all…</li>
+  <li>Copy steam_api.dll and steam_api64.dll from the Goldberg directory into the game directory.</li>
+  <li>Launch Prison Architect64.exe (or Prison Architect.exe if you are on 32-bit) as many times as you need.</li>
+  <li>On one instance, load or create a prison. Open the pause menu and click Go Online. Make sure the server is Publicly listed. You will probably want to set a password. The Username can be whatever you want.</li>
+  <li>On the other instance(s), go to Join Online Game -&gt; Find the game in the list -&gt; Enter the password and another username.</li>
+</ol>
+
+<h2 id="split-screen-setup">Split screen setup</h2>
+<ol>
+  <li>Install and run Universal Split Screen: see the <a href="https://universalsplitscreen.github.io/docs/quickstart/">Quick Start guide</a>.</li>
+  <li>In options, load the Prison Architect preset.</li>
+  <li>Go back to the Current window tab. Alt+tab into the first instance. Set the mouse and keyboard. Repeat for the other instances.</li>
+  <li>Click Start split screen. You should now be able to play. Press End to stop.</li>
+</ol>
+
+<h2 id="default-options">Default options</h2>
+<p>For reference, here are the default options.
+<img src="https://raw.githubusercontent.com/UniversalSplitScreen/UniversalSplitScreen.github.io/master/img/prisonarchitect_options.png" alt="Prison Architect Options" /></p>

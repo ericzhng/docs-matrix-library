@@ -1,0 +1,88 @@
+<p>Minecraft does not support controllers, so you will need multiple keyboards and mice.</p>
+
+<p>Please note that if you are using a high polling rate mouse, input will be very stuttery for about a minute after split screen starts.</p>
+
+<p>If you are using Minecraft 1.12 or earlier, use the Minecraft 1.14.3 preset and enable “Send fake window focus messages”</p>
+
+<h2 id="video-tutorial">Video tutorial</h2>
+<p>(If you are following the video, make sure to disable Raw input in Options -&gt; Controls -&gt; Mouse settings in Minecraft 1.14.4 or higher)</p>
+<div class="embed-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nOvlsMehzjk" frameborder="0" allow="accelerometer; 
+                 autoplay; 
+                 encrypted-media; 
+                 gyroscope; 
+                 picture-in-picture" allowfullscreen="allowfullscreen">
+  </iframe>
+</div>
+
+<h2 id="minecraft-setup">Minecraft setup</h2>
+<p>To launch two separate Minecraft instances, we will need a launcher called MultiMC</p>
+<ol>
+  <li>
+    <p>Download and extract <a href="https://multimc.org/#Download">MultiMC</a></p>
+  </li>
+  <li>
+    <p>Run MultiMC and log in with your Mojang account.</p>
+  </li>
+  <li>
+    <p>Create two(or more) instances by clicking Add Instance. Make sure they have a different names.</p>
+  </li>
+  <li>
+    <p>(Optional) <a href="https://github.com/MultiMC/MultiMC5/wiki/MultiMC-and-OptiFine">Install OptiFine with MultiMC</a> for better performance.</p>
+  </li>
+  <li>
+    <ul>
+      <li>(If you have multiple Minecraft accounts) Select the first instance and click Launch. Change account in the top-right corner, then repeat for the second instance.</li>
+      <li>(If you have one Minecraft account) Select the first instance and click Launch Offline. Set your username to anything. Repeat for the second instance</li>
+    </ul>
+  </li>
+  <li>
+    <p>Make sure the games are running in windowed mode. Resize them however you like.</p>
+  </li>
+  <li>
+    <p>Start a singleplayer world and open to LAN in the pause menu. The other player can join from the multiplayer menu. Alternatively, you can connect to any server (with multiple Minecraft accounts) or an ‘Offline’ server (if you have one Minecraft account).</p>
+  </li>
+  <li>(Minecraft 1.14.4 or higher) Make sure to disable Raw input in Options -&gt; Controls -&gt; Mouse settings.</li>
+</ol>
+
+<h2 id="split-screen-setup">Split screen setup</h2>
+<ol>
+  <li>
+    <p>See how to install Universal Split Screen in the <a href="https://universalsplitscreen.github.io/docs/quickstart/">Quick Start guide</a>.</p>
+  </li>
+  <li>In options, select the preset and click Load.
+    <ul>
+      <li>For Minecraft 1.14.3 and higher, you should use the <code class="language-plaintext highlighter-rouge">Minecraft 1.14.3</code> preset. For versions 1.13 to 1.14.2, use <code class="language-plaintext highlighter-rouge">Minecraft Alternative</code>. If split screen doesn’t work, try the other preset (after restarting the instances).</li>
+    </ul>
+  </li>
+  <li>
+    <p>Go back to the Current window tab.</p>
+  </li>
+  <li>
+    <p>Alt+tab into the first game. Set the mouse and keyboard. Repeat for the second game.</p>
+  </li>
+  <li>Click Start split screen. You should now be able to play. Press End to stop.</li>
+</ol>
+
+<h2 id="tips">Tips</h2>
+<ul>
+  <li>
+    <p>If you have inconsistent mouse movement, especially when moving multiple mice, make sure the polling rates on your mice are set as low as possible. You can usually set this in your mouse configuration program (look on the manufacturer’s website).</p>
+  </li>
+  <li>
+    <p>If the mouse cursor is flickering, try setting VSync on by dragging the FPS limit slider to the left.</p>
+  </li>
+  <li>
+    <p>Joining a Minecraft server with ‘anti-cheat’ will not get you banned if you use Hooks(in the options), since servers cannot run code on your machine.</p>
+  </li>
+  <li>
+    <p>You can click Toggle window borders to remove the window title, giving you more space.</p>
+  </li>
+  <li>
+    <p>If you want to use an existing save, copy it from <code class="language-plaintext highlighter-rouge">C:\Users\YOUR_WINDOWS_USERNAME\AppData\Roaming\.minecraft\saves</code> to <code class="language-plaintext highlighter-rouge">MultiMC\instances\INSTANCE_NAME\.minecraft\saves</code>, replacing YOUR_WINDOWS_USERNAME and INSTANCE_NAME as necessary.</p>
+  </li>
+</ul>
+
+<h2 id="default-options">Default options</h2>
+<p>For reference, here are the default options.
+<img src="https://raw.githubusercontent.com/UniversalSplitScreen/UniversalSplitScreen.github.io/master/img/minecraft_options.png" alt="Minecraft Options" /></p>

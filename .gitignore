@@ -1,8 +1,9 @@
-_site
 .sass-cache
 .jekyll-metadata
 *.gem
 .bundle
 vendor/bundle
-
 img/src
+
+.jekyll-cache/
+tmp-*/

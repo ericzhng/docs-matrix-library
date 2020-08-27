@@ -1,0 +1,53 @@
+<h2 id="video-tutorial">Video tutorial</h2>
+<div class="embed-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/arGi0uOwh_M" frameborder="0" allow="accelerometer; 
+                 autoplay; 
+                 encrypted-media; 
+                 gyroscope; 
+                 picture-in-picture" allowfullscreen="allowfullscreen">
+  </iframe>
+</div>
+
+<h2 id="dont-starve-together-dst-setup">Don’t Starve Together (DST) setup</h2>
+<ol>
+  <li>Open the DST directory by right-clicking DST in Steam -&gt; Properties -&gt; Local files -&gt; Browse game files…</li>
+  <li>Open the <code class="language-plaintext highlighter-rouge">bin</code> directory.</li>
+  <li>Create a text file called <code class="language-plaintext highlighter-rouge">steam_appid.txt</code>. Inside it, write <code class="language-plaintext highlighter-rouge">322330</code>. Save and exit.</li>
+  <li>Rename <code class="language-plaintext highlighter-rouge">steam_api.dll</code> to <code class="language-plaintext highlighter-rouge">steam_api.dll.valve</code>.</li>
+  <li>Download the latest release of the Goldberg Emulator <a href="https://gitlab.com/Mr_Goldberg/goldberg_emulator/releases">here</a>. Goldberg emu is required to run two instances of the game and to connect them together.</li>
+  <li>Extract it anywhere by right-clicking -&gt; Extract all…</li>
+  <li>Copy the steam_api.dll from the Goldberg directory to the bin directory.</li>
+</ol>
+
+<h2 id="launching-the-instances">Launching the instances</h2>
+<ol>
+  <li>Run <code class="language-plaintext highlighter-rouge">dontstarve_steam.exe</code> once. After clicking Play! you will need to quickly click Play Offline. If you miss, click Cancel and try again.
+    <ul>
+      <li>If you can’t get it fast enough, try disconnecting from the internet. Alternatively, use the steam_api.dll from the <code class="language-plaintext highlighter-rouge">experimental</code> folder in Goldberg. This version will prevent the game from connecting to the internet.</li>
+    </ul>
+  </li>
+  <li>Before you launch a second instance, you will need to change your (fake) username and steam id.</li>
+  <li>Press Windows+R to open a command window, type in <code class="language-plaintext highlighter-rouge">%appdata%</code> and click OK. Navigate to Goldberg SteamEmu Saves\settings</li>
+  <li>Open <code class="language-plaintext highlighter-rouge">account_name.txt</code> and set it to a unique name. Open <code class="language-plaintext highlighter-rouge">user_steam_id.txt</code> and change it <em>slightly</em>, e.g. by increasing by 1.</li>
+  <li>Now you can launch the game again from the executable. Repeat these steps as many times as you need.</li>
+  <li>If you are using a controller, go to Settings -&gt; and make sure Input Device is set to a controller (you will probably want to use the first controller on all instances)</li>
+</ol>
+
+<h2 id="connecting-the-instances">Connecting the instances</h2>
+<ol>
+  <li>On one instance, go to Host Game and Make sure it is on Local Only</li>
+  <li>On the other instances, go to Browse Games -&gt; Select the world.</li>
+</ol>
+
+<h2 id="split-screen-setup">Split screen setup</h2>
+<ol>
+  <li>Install and run Universal Split Screen: see the <a href="https://universalsplitscreen.github.io/docs/quickstart/">quick start guide</a>.</li>
+  <li>In options, load the Dont Starve Together preset.</li>
+  <li>Go back to the Current window tab. Alt+tab into the first instance. Set the mouse and keyboard or controller. Repeat for the other instances.</li>
+  <li>Click Start split screen. You should now be able to play. Press End to stop.</li>
+</ol>
+
+<h2 id="default-options">Default options</h2>
+<p>For reference, here are the default options.
+<img src="https://raw.githubusercontent.com/UniversalSplitScreen/UniversalSplitScreen.github.io/master/img/dst_options.png" alt="Don't Starve Together options" /></p>
+

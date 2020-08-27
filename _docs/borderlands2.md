@@ -1,6 +1,6 @@
 ---
 title: Borderlands 2
-permalink: /docs/guides/borderlands2/
+permalink: /docs/borderlands2/
 ---
 
 Borderlands 2 (BL2) supports keyboards, mice and controllers, so you can use any combination you like.

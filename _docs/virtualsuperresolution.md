@@ -1,6 +1,6 @@
 ---
 title: Virtual super resolution
-permalink: /docs/guides/borderlands2/
+permalink: /docs/borderlands2/
 ---
 
 You may find that some games will not let you resize them smaller than some size, or that UI elements break.
