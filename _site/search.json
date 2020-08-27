@@ -52,18 +52,18 @@
 
   
   {
-  "title": "my second blog 2",
-  "url": "/docs-matrix-library/blog/2019/07/16/second-2/"
+  "title": "PLACE HOLDER",
+  "url": "/docs-matrix-library/blog/2020/08/26/placeholder/"
   },
   
   {
-  "title": "my second blog",
-  "url": "/docs-matrix-library/blog/2019/07/16/second/"
+  "title": "Hello world of matrix-library",
+  "url": "/docs-matrix-library/blog/2020/08/26/lapack-helloworld/"
   },
   
   {
-  "title": "Initial release",
-  "url": "/docs-matrix-library/blog/2019/07/16/initial-release/"
+  "title": "Install matrix-library",
+  "url": "/docs-matrix-library/blog/2020/08/26/installation/"
   }
   
 ]

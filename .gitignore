@@ -7,3 +7,5 @@ img/src
 
 .jekyll-cache/
 tmp-*/
+_site/*
+

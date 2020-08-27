@@ -1,6 +1,8 @@
 # Website for matrix-library
 
-This website is used to host some docs/manuals/tutorials for mathematical packages of BLAS/LAPACK/SCALAPACK. More detailed information can be found in [this website](https://ericzhng.github.io/docs-matrix-library/).
+This repository is used to host a website that contains some docs/manuals/tutorials for mathematical packages of BLAS/LAPACK/SCALAPACK. More detailed information can be found [here in this website](https://ericzhng.github.io/docs-matrix-library/).
+
+The github repositories for BLAS/LAPACK/SCALAPACK can be found [here for LAPACK](https://github.com/ericzhng/matrix-library-lapack) and [here for ScaLAPACK](https://github.com/ericzhng/matrix-library-scalapack/). The reason for hosting them here is that original packages downloaded sometimes cannot work directly and some modifications are needed. Here the codes are tested to work directly in Ubuntu.
 
 ## Getting Started
 
