@@ -4,12 +4,9 @@
 .jekyll-cache
 .jekyll-metadata
 .bundle
-_site
 vendor/bundle
+_site
 
 # other directory
 todelete
 img/src
-
-# other files
-*.gem
