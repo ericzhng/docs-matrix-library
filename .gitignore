@@ -1,11 +1,15 @@
+
+# system directory
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
-*.gem
 .bundle
+_site
 vendor/bundle
+
+# other directory
+todelete
 img/src
 
-.jekyll-cache/
-tmp-*/
-_site/*
-
+# other files
+*.gem
